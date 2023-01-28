@@ -1,3 +1,4 @@
+
 let two = 1;
 const array = ["1.jpg", "2.jpg", "3.jpg"];
 function openCont() {
@@ -80,13 +81,13 @@ function backVideo() {
 countPh = 0;
 function openPhoto() {
   if (countPh === 0) {
-    pop.style.display = "block";
+    pop_main.style.display = "block";
     photo_box.style.display = "block";
     document.querySelector(".arrow_next").style.display = "block";
     document.querySelector(".arrow_back").style.display = "block";
     countPh = 1;
   } else {
-    pop.style.display = "none";
+    pop_main.style.display = "none";
     document.querySelector(".arrow_next").style.display = "none";
     document.querySelector(".arrow_back").style.display = "none";
     photo_box.style.display = "none";
@@ -150,16 +151,32 @@ let prod1 = 0,
   prod7 = 0,
   prod8 = 0;
 let countShop = 1;
-
-function openShoping() {
-  if (countShop === 0) {
-    shopning_pop_ID.style.display = "none";
-    countShop = 1;
-  } else {
-    shopning_pop_ID.style.display = "block";
-    countShop = 0;
-  }
+const inst = document.querySelector(".logo_big");
+inst.addEventListener("click", open_logo);
+function open_logo() {
+  console.log("Mokriy DimA");
+  
 }
+const pop = document.getElementById("pop_go");
+pop.addEventListener("click", function () {
+  pop_go.style.display = "none";
+});
+const buttons = document.querySelectorAll(".buy");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", welcomer);
+});
+function welcomer() {
+  pop_go.style.display = "block";
+  console.log("clack");
+}
+const burger = document.querySelector('.burger');
+const burger_menu = document.querySelector('.burger_menu');
+burger.addEventListener('click', () => { 
+burger.classList.toggle('active');
+burger_menu.classList.toggle('active_burger');
+console.log("fuck")})
+
 document.addEventListener("keydown", function (event) {
   if (["ArrowRight"].includes(event.key)) {
     next();

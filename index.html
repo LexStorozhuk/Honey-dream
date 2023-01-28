@@ -19,10 +19,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <script src="js.js"></script>
     <title>Honey dream</title>
   </head>
-  <div class="intro_background ">
+  <!-- <div class="intro_background ">
     <div class="intro">
       <div class="intro_text_block_one">
         <h1>
@@ -41,56 +40,59 @@
         <h2>D</h2>
       </div>
     </div>
-  </div>
-  <div class="fone">
-    <!-- <div class="black">
+  </div> -->
 
-    </div> -->
+  <div class="fone">
     <img src="back.jfif" alt="" />
-    <div class="lable_wrapper">
-      <a class="lable" href="/">
-        Мед з горішками<br>
-      </a>
-      <span class="lable_two"> Подарункові бокси</span>
-    </div>
     <div class="ribbon">
       <img src="/ribbon.png" alt="" />
     </div>
-    <div class="honey">
+    <!-- <div class="honey">
       <img src="/honey.png" alt="">
-    </div>
+    </div> -->
   </div>
 
   <header class="header">
     <nav class="nav">
-      <div class="box_li_one" onclick="openProd()">
-        <div class="up" style="animation-delay: 0.5s">П</div>
-        <div class="up" style="animation-delay: 0.6s">р</div>
-        <div class="up" style="animation-delay: 0.7s">о</div>
-        <div class="up" style="animation-delay: 0.8s">д</div>
-        <div class="up" style="animation-delay: 0.9s">у</div>
-        <div class="up" style="animation-delay: 1s">к</div>
-        <div class="up" style="animation-delay: 1.1s">т</div>
+     
+      <div class="lable_wrapper">
+        <a class="lable" href="/">
+          Мед з горішками<br>
+        </a>
+        <span class="lable_two"> Подарункові бокси</span>
       </div>
-      <div class="box_li_two" onclick="openVideo()">
-        <div class="up" style="animation-delay: 1.2s">В</div>
-        <div class="up" style="animation-delay: 1.3s">і</div>
-        <div class="up" style="animation-delay: 1.4s">д</div>
-        <div class="up" style="animation-delay: 1.5s">г</div>
-        <div class="up" style="animation-delay: 1.6s">у</div>
-        <div class="up" style="animation-delay: 1.7s">к</div>
-        <div class="up" style="animation-delay: 1.8s">и</div>
-      </div>
-      <button class="box_li" onclick="openCont()">
-        <span class="up_3" style="animation-delay: 1.9s">K</span
-        ><span class="up_3" style="animation-delay: 2s">о</span
-        ><span class="up_3" style="animation-delay: 2.1s">н</span
-        ><span class="up_3" style="animation-delay: 2.2s">т</span
-        ><span class="up_3" style="animation-delay: 2.3s">а</span
-        ><span class="up_3" style="animation-delay: 2.4s">к</span
-        ><span class="up_3" style="animation-delay: 2.5s">т</span
-        ><span class="up_3" style="animation-delay: 2.6s">и</span>
-      </button>
+      <div class="burger">
+        <span></span>  
+        </div>
+      <div class="burger_menu">
+        <div class="box_li_one" onclick="openProd()">
+          <div class="up" style="animation-delay: 0.5s">П</div>
+          <div class="up" style="animation-delay: 0.6s">р</div>
+          <div class="up" style="animation-delay: 0.7s">о</div>
+          <div class="up" style="animation-delay: 0.8s">д</div>
+          <div class="up" style="animation-delay: 0.9s">у</div>
+          <div class="up" style="animation-delay: 1s">к</div>
+          <div class="up" style="animation-delay: 1.1s">т</div>
+        </div>
+        <div class="box_li_two" onclick="openVideo()">
+          <div class="up" style="animation-delay: 1.2s">В</div>
+          <div class="up" style="animation-delay: 1.3s">і</div>
+          <div class="up" style="animation-delay: 1.4s">д</div>
+          <div class="up" style="animation-delay: 1.5s">г</div>
+          <div class="up" style="animation-delay: 1.6s">у</div>
+          <div class="up" style="animation-delay: 1.7s">к</div>
+          <div class="up" style="animation-delay: 1.8s">и</div>
+        </div>
+        <button class="box_li" onclick="openCont()">
+          <span class="up_3" style="animation-delay: 1.9s">K</span
+          ><span class="up_3" style="animation-delay: 2s">о</span
+          ><span class="up_3" style="animation-delay: 2.1s">н</span
+          ><span class="up_3" style="animation-delay: 2.2s">т</span
+          ><span class="up_3" style="animation-delay: 2.3s">а</span
+          ><span class="up_3" style="animation-delay: 2.4s">к</span
+          ><span class="up_3" style="animation-delay: 2.5s">т</span
+          ><span class="up_3" style="animation-delay: 2.6s">и</span>
+        </button>
       <div id="box" class="box_logo visibility_blok_none">
         <div class="logo_inst">
           <img src="/inst-logo.png" alt="" />
@@ -99,15 +101,8 @@
           <img src="/viber-log.png" alt="" />
         </div>
       </div>
-      <button class="shoping" onclick="openShoping()">
-        <img src="/shoping.png" alt="">
-      </button>
+     
     </nav>
-    <div class="numbers_of_gods_shop_bag">
-      <span id="numbers-inside-on-shopping-bag" style="position: relative; bottom: 2px;">
-        2
-      </span>
-    </div>
   </header>
   <div id="main" class="grid_prod" >
     <img
@@ -124,7 +119,7 @@
       onclick="numThree(),openPhoto ()"
     />
   </div>
-  <div id="pop" class="pop_full_img" onclick="openPhoto ()"></div>
+  <div id="pop_main" class="pop_full_img" onclick="openPhoto ()"></div>
   <div>
     <img
       id="photo_box"
@@ -175,12 +170,14 @@
       </div>
       <div class="discription">
         <span> Мед з горішками та сухими фруктами</span> 
-        <button  id="buy1" class="buy" onclick="updateNumOfGodsGrid1()">
-          Купити
+        <button  id="buy1" class="buy">
+          <span class="buy_text">
+            Купити
+          </span>
         </button>
       </div>
     </div>
-    <div id="prod1" class="grid_elem" onclick="addFirstProd()">
+    <div id="prod1" class="grid_elem">
       <div>
         <img src="/1.jpg" alt="" />
         <div class="quantity_of_selected_prod" >
@@ -192,11 +189,13 @@
       <div class="discription">
         <span> Мед з горішками та сухими фруктами</span> 
         <button  id="buy1" class="buy">
-          Купити
+          <span class="buy_text">
+            Купити
+          </span>
         </button>
       </div>
     </div>
-    <div id="prod1" class="grid_elem" onclick="addFirstProd()">
+    <div id="prod1" class="grid_elem">
       <div>
         <img src="/1.jpg" alt="" />
         <div class="quantity_of_selected_prod" >
@@ -208,11 +207,13 @@
       <div class="discription">
         <span> Мед з горішками та сухими фруктами</span> 
         <button  id="buy1" class="buy">
-          Купити
+          <span class="buy_text">
+            Купити
+          </span>
         </button>
       </div>
     </div>
-    <div id="prod1" class="grid_elem" onclick="addFirstProd()">
+    <div id="prod1" class="grid_elem">
       <div>
         <img src="/1.jpg" alt="" />
         <div class="quantity_of_selected_prod" >
@@ -224,11 +225,13 @@
       <div class="discription">
         <span> Мед з горішками та сухими фруктами</span> 
         <button  id="buy1" class="buy">
-          Купити
+          <span class="buy_text">
+            Купити
+          </span>
         </button>
       </div>
     </div>
-    <div id="prod1" class="grid_elem" onclick="addFirstProd()">
+    <div id="prod1" class="grid_elem" >
       <div>
         <img src="/1.jpg" alt="" />
         <div class="quantity_of_selected_prod" >
@@ -240,11 +243,13 @@
       <div class="discription">
         <span> Мед з горішками та сухими фруктами</span> 
         <button  id="buy1" class="buy">
-          Купити
+          <span class="buy_text">
+            Купити
+          </span>
         </button>
       </div>
     </div>
-    <div id="prod1" class="grid_elem" onclick="addFirstProd()">
+    <div id="prod1" class="grid_elem" >
       <div>
         <img src="/1.jpg" alt="" />
         <div class="quantity_of_selected_prod" >
@@ -256,11 +261,13 @@
       <div class="discription">
         <span> Мед з горішками та сухими фруктами</span> 
         <button  id="buy1" class="buy">
-          Купити
+          <span class="buy_text">
+            Купити
+          </span>
         </button>
       </div>
     </div>
-    <div id="prod1" class="grid_elem" onclick="addFirstProd()">
+    <div id="prod1" class="grid_elem" >
       <div>
         <img src="/1.jpg" alt="" />
         <div class="quantity_of_selected_prod" >
@@ -272,11 +279,13 @@
       <div class="discription">
         <span> Мед з горішками та сухими фруктами</span> 
         <button  id="buy1" class="buy">
-          Купити
+          <span class="buy_text">
+            Купити
+          </span>
         </button>
       </div>
     </div>
-    <div id="prod1" class="grid_elem" onclick="addFirstProd()">
+    <div id="prod1" class="grid_elem">
       <div>
         <img src="/1.jpg" alt="" />
         <div class="quantity_of_selected_prod" >
@@ -288,13 +297,32 @@
       <div class="discription">
         <span> Мед з горішками та сухими фруктами</span> 
         <button  id="buy1" class="buy">
-          Купити
+          <span class="buy_text">
+            Купити
+          </span>
         </button>
       </div>
     </div>
-    
   </div>
+  <div id="pop_go" class="pop_go_to_social_media">
+    <div class="welcoming_wrapper">
+      <div class="welcoming">
+        <span class="top"></span>
+        <span class="right"></span>
+        <span class="bottom"></span>
+        <span class="left"></span>
+        <h3>Оформлення замовлення в наших соц мережах</h3>
+        <a target="_blank" class="logo_big" href="https://instagram.com/honeydream.sd?igshid=MDM4ZDc5MmU=">
+        <img src="/inst-logo.png" alt="">
+        </a>
+        <a class="logo_big_viber" href="">
+          <img src="/viber-log.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+ 
   <body>
-    <section></section>
+    <script src="js.js"></script>
   </body>
 </html>
