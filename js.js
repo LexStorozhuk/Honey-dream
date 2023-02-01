@@ -187,6 +187,7 @@ document.addEventListener("keydown", function (event) {
     back();
   }
 });
+
 // document.addEventListener('keydown', function(event){
 //   if (event.shiftKey && ['F','f'].includes(event.key) ) {
 //       console.log('Нажаты Shift + F или Shift + f');
