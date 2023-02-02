@@ -1533,6 +1533,15 @@ h3:hover {
   }
 }
 @media (max-width: 500px) {
+  .ribbon {
+    pointer-events: none;
+    position: absolute;
+    right: -5px;
+    top: 0;
+    width: 50%;
+    height: 500px;
+    z-index: 2;
+  }
   .lable_wrapper {
     width: 300px;
     height: 100%;
