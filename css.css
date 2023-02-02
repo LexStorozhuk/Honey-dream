@@ -62,7 +62,7 @@ body {
 }
 .intro_background {
   width: 50vw;
-  background-image: url(/font-grid.png);
+  background-image: url(font-grid.png);
   z-index: 4;
   animation: intro_left 2s forwards ease-in;
   animation-delay: 1s;
@@ -74,7 +74,7 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  background-image: url(/font-grid.png);
+  background-image: url(font-grid.png);
   z-index: 4;
   animation: intro_right 2s forwards ease-in;
   animation-delay: 1s;
@@ -85,7 +85,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url(/font-grid.png);
+  background-image: url(font-grid.png);
   z-index: 4;
   animation: intro_left 2s forwards ease-in;
   animation-delay: 1s;
@@ -234,7 +234,7 @@ h2 {
   width: 100vw;
   height: 53px;
   position: absolute;
-  background-image: url(/nav.jpg);
+  background-image: url(nav.jpg);
   left: 0;
   top: 0;
   display: flex;
@@ -247,7 +247,7 @@ h2 {
   width: 100%;
   height: 43px;
   display: flex;
-  background-image: url(/nav.jpg);
+  background-image: url(nav.jpg);
   flex-direction: row;
   justify-content: start;
   align-items: center;
@@ -406,7 +406,7 @@ position: relative;
   display: block;
   transition: 0.5s;
   background-image: inherit;
-  background-image: url(/fon-ribbon.png);
+  background-image: url(fon-ribbon.png);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.419);
@@ -509,7 +509,7 @@ position: relative;
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url(/nav.jpg);
+  background-image: url(nav.jpg);
   z-index: 1;
   opacity: 1;
   border-radius: 20%;
@@ -738,7 +738,7 @@ position: relative;
 .discription {
   width: 100%;
   height: 25%;
-  background-image: url(/font-grid.png);
+  background-image: url(font-grid.png);
   position: relative;
   top: -5px;
   font-size: calc(5px + (8 + 8 * 0.7) * ((100vw - 320px) / 1280));
@@ -1076,7 +1076,7 @@ h3:hover {
   .burger_menu {
     width: 150px;
     height: 255px;
-    background-image: url(/font-grid.png);
+    background-image: url(font-grid.png);
     position: absolute;
     left: none;
     right: 5px;
@@ -1116,7 +1116,7 @@ h3:hover {
     width: 100vw;
     height: 79px;
     position: absolute;
-    background-image: url(/nav.jpg);
+    background-image: url(nav.jpg);
     left: 0;
     top: 0;
     display: flex;
@@ -1156,7 +1156,7 @@ h3:hover {
     font-family: "Playfair Display", serif;
     text-decoration: none;
     list-style-type: none;
-    background-image: url(/back_font.jpg);
+    background-image: url(back_font.jpg);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
@@ -1174,7 +1174,7 @@ h3:hover {
     display: block;
     transition: 0.5s;
     background-image: inherit;
-    background-image: url(/fon-ribbon.png);
+    background-image: url(fon-ribbon.png);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     box-shadow: none;
@@ -1387,7 +1387,7 @@ h3:hover {
   .burger_menu {
     width: 150px;
     height: 255px;
-    background-image: url(/font-grid.png);
+    background-image: url(font-grid.png);
     position: absolute;
     left: none;
     right: 5px;
