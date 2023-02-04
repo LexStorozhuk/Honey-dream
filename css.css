@@ -1071,6 +1071,7 @@ h3:hover {
   }
 
   .lable_two {
+
     position: absolute;
     top: 27px;
     font-size: 25px;
@@ -1218,7 +1219,7 @@ h3:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: transparent;
+     background: transparent;
     border: none;
     font-family: "Playfair Display", serif;
     padding: 0px;
@@ -1533,6 +1534,15 @@ h3:hover {
   }
 }
 @media (max-width: 500px) {
+  .lable_two {
+   width: 250px; 
+    position: absolute;
+    top: 27px;
+    font-size: 25px;
+    text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
+    -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
+    margin: 20px;
+  }
   .ribbon {
     pointer-events: none;
     position: absolute;
@@ -1657,14 +1667,5 @@ h3:hover {
     -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
     text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
     text-align: start;
-}
-@media (max-width: 330px) {
-  .welcoming_wrapper {
-    width: 70%;
-    height: 30%;
-    margin: 35% auto;
-    background-color: rgba(250, 235, 215, 0.526);
-    border-radius: 5%;
-  }
 }
 }
