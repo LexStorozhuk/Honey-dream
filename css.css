@@ -59,6 +59,7 @@ body {
   font-size: 30px;
   text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
   font-size: calc(15px + 10 * (100vw / 1500));
+  font-family: "Playfair Display", serif;
   -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
 }
 .intro_background {
@@ -1074,6 +1075,7 @@ h3:hover {
     position: absolute;
     top: 27px;
     font-size: 25px;
+  font-family: "Playfair Display", serif;
     text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
     -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
     margin: 20px;
@@ -1533,15 +1535,6 @@ h3:hover {
   }
 }
 @media (max-width: 500px) {
-  .lable_two {
-    width: 250px;
-    position: absolute;
-    top: 27px;
-    font-size: 25px;
-    text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
-    -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
-    margin: 20px;
-  }
   .ribbon {
     pointer-events: none;
     position: absolute;
@@ -1666,5 +1659,15 @@ h3:hover {
     -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
     text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
     text-align: start;
+  }
+  .lable_two {
+    width: 250px;
+    position: absolute;
+    top: 27px;
+    font-size: 25px;
+  font-family: "Playfair Display", serif;
+    text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
+    -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
+    margin: 20px;
   }
 }
