@@ -1638,14 +1638,14 @@ h3:hover {
     border-radius: 5%;
   }
   .lable_wrapper {
-    width: 270px;
+    width: fit-content;
     height: 100%;
     position: relative;
     top: -5px;
     left: 5px;
   }
   .lable {
-    width: 250px;
+    width: fit-content;
     display: block;
     font-weight: 900;
     text-decoration: none;
@@ -1661,7 +1661,7 @@ h3:hover {
   }
 
   .lable_two {
-    width: 250px;
+    width: fit-content;
     position: absolute;
     top: 22px;
     left: -15px;
