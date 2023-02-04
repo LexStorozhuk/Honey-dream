@@ -1063,8 +1063,8 @@ h3:hover {
     top: 0px;
     left: 5px;
     color: rgba(108, 0, 0, 0.779);
+  font-family: "Playfair Display", serif;
     z-index: 2;
-    font-family: "Lobster", cursive;
     font-size: 40px;
     -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
     text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
@@ -1628,6 +1628,35 @@ h3:hover {
     animation: none;
     margin: 0;
   }
+  .welcoming_wrapper {
+    width: 70%;
+    height: 30%;
+    margin: 35% auto;
+    background-color: rgba(250, 235, 215, 0.526);
+    border-radius: 5%;
+  }
+  .lable_wrapper {
+    width: fit-content;
+    height: 100%;
+    position: relative;
+    top: -5px;
+    left: 5px;
+  }
+  .lable {
+  font-family: "Playfair Display", serif;
+    width: fit-content;
+    display: block;
+    font-weight: 900;
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    color: rgba(108, 0, 0, 0.779);
+    z-index: 2;
+    font-size: 30px;
+    -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
+    text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
+    text-align: start;
 }
 @media (max-width: 330px) {
   .welcoming_wrapper {
@@ -1645,6 +1674,7 @@ h3:hover {
     left: 5px;
   }
   .lable {
+  font-family: "Playfair Display", serif;
     width: fit-content;
     display: block;
     font-weight: 900;
@@ -1654,10 +1684,10 @@ h3:hover {
     left: 5px;
     color: rgba(108, 0, 0, 0.779);
     z-index: 2;
-    font-family: "Lobster", cursive;
     font-size: 30px;
     -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
     text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
+    text-align: start;
   }
 
   .lable_two {
@@ -1669,4 +1699,5 @@ h3:hover {
     text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
     -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
   }
+}
 }
