@@ -1075,7 +1075,7 @@ h3:hover {
     position: absolute;
     top: 27px;
     font-size: 25px;
-  font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
     text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
     -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
     margin: 20px;
@@ -1262,25 +1262,25 @@ h3:hover {
   }
   .grid_prod {
     width: 100vw;
-    height: 88vh;
+    height: 75vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
     position: absolute;
     left: calc(50vw - 49vw);
-    top: calc(50vh - 40vh);
+    top: 22%;
     z-index: 2;
-    animation: move 4s infinite linear;
+    animation: none 4s infinite linear;
   }
   .img_prod {
     width: 50%;
-    height: 33.3%;
+    height: 100%;
     transition: 1s;
     border-radius: 3%;
     cursor: pointer;
     box-shadow: -1px 0px 5px rgba(217, 215, 215, 0.427),
       1px 0px 5px rgba(217, 215, 215, 0.427);
-    animation: one 5s infinite;
+    animation: none 5s infinite;
   }
   @keyframes one {
     16.6% {
@@ -1303,13 +1303,13 @@ h3:hover {
   }
   .img_prod_one {
     width: 50%;
-    height: 33.3%;
-
+    height: 100%;
+    display: none;
     transition: 1s;
     border-radius: 3%;
     cursor: pointer;
-    margin: 0 0 0 48%;
-    animation: two 5s infinite;
+    margin: 0 0 0;
+    animation: none 5s infinite;
   }
   @keyframes two {
     16.6% {
@@ -1332,12 +1332,12 @@ h3:hover {
   }
   .img_prod_tree {
     width: 50%;
-    height: 33.3%;
+    height: 100%;
     transition: 1s;
     border-radius: 3%;
     cursor: pointer;
-    margin: 0 0 0 48%;
-    animation: three 5s infinite;
+    margin: 0%;
+    animation: none 5s infinite;
   }
   @keyframes three {
     16.6% {
@@ -1535,6 +1535,16 @@ h3:hover {
   }
 }
 @media (max-width: 500px) {
+  .img_prod_one {
+    width: 50%;
+    height: 100%;
+    display: block;
+    transition: 1s;
+    border-radius: 3%;
+    cursor: pointer;
+    margin: 0 0 0;
+    animation: none 5s infinite;
+  }
   .ribbon {
     pointer-events: none;
     position: absolute;
@@ -1590,13 +1600,14 @@ h3:hover {
     display: none;
   }
   .grid_prod {
-    width: 75vw;
-    height: 87vh;
+    width: 70vw;
+    height: 80vh;
     display: flex;
+    flex-direction: column;
     gap: 5px;
     position: absolute;
-    left: calc(50vw - 37.5vw);
-    top: 11%;
+    left: calc(50vw - 35vw);
+    top: 16%;
     animation: move 4s infinite linear;
   }
   .img_prod {
@@ -1665,7 +1676,7 @@ h3:hover {
     position: absolute;
     top: 27px;
     font-size: 25px;
-  font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
     text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
     -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
     margin: 20px;
