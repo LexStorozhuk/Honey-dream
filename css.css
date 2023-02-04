@@ -1636,7 +1636,7 @@ h3:hover {
     border-radius: 5%;
   }
   .lable_wrapper {
-    width: fit-content;
+    width: 250px;
     height: 100%;
     position: relative;
     top: -5px;
@@ -1644,7 +1644,7 @@ h3:hover {
   }
   .lable {
   font-family: "Playfair Display", serif;
-    width: fit-content;
+    width: 250px;
     display: block;
     font-weight: 900;
     text-decoration: none;
@@ -1665,39 +1665,6 @@ h3:hover {
     margin: 35% auto;
     background-color: rgba(250, 235, 215, 0.526);
     border-radius: 5%;
-  }
-  .lable_wrapper {
-    width: fit-content;
-    height: 100%;
-    position: relative;
-    top: -5px;
-    left: 5px;
-  }
-  .lable {
-  font-family: "Playfair Display", serif;
-    width: fit-content;
-    display: block;
-    font-weight: 900;
-    text-decoration: none;
-    position: relative;
-    top: 0px;
-    left: 5px;
-    color: rgba(108, 0, 0, 0.779);
-    z-index: 2;
-    font-size: 30px;
-    -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
-    text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
-    text-align: start;
-  }
-
-  .lable_two {
-    width: fit-content;
-    position: absolute;
-    top: 22px;
-    left: -15px;
-    font-size: 20px;
-    text-shadow: -1px 1px 1px rgba(0, 13, 13, 0.685);
-    -webkit-text-fill-color: rgba(108, 0, 0, 0.83);
   }
 }
 }
